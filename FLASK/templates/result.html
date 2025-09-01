@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Results</title>
+</head>
+<body>
+    <h2>Final Results</h2>
+<table border=2>
+    {% for key, value in result.items() %}
+    <tr>
+        <th>
+            {{key}}
+        </th>
+
+        <th>
+            {{value}}
+        </th>
+    </tr>
+    {% endfor %}
+</table>
+
+    
+</body>
+</html>
